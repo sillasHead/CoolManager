@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.12",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@prisma/client": "^6.0.1",
+    "@types/bun": "latest",
+    "prisma": "^6.0.1"
+  }
+}
